@@ -1,1 +1,15 @@
-hi lets build the website here
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>treeliving</title>
+</head>
+
+<body>
+  <h1>Treeliving<h1/>
+  <p><p/>
+</body>
+
+</html>
