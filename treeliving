@@ -1,15 +1,36 @@
-<!DOCTYPE html>
+!DOCTYPE HTML
 <html>
+  <head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>treeliving</title>
-</head>
+    <title>treeliving</title>
 
-<body>
-  <h1>Treeliving<h1/>
-  <p><p/>
-</body>
+    <style>
+      body {
+        font-family: courier;
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-right: 870px;
+        margin-bottom: 100px;
+      }
+      h1 {
+        font-size: 80px;
+      }
+      p {
+        font-size: 30px;
+      }
 
-</html>
+      img {
+        width: 400px;
+        height: 220px;
+        float: right;
+      }
+    </style>
+
+  </head>
+
+
+  <body>
+    <h1>treeliving</h1>
+    <p>Our Story</p> <img src="https://i.ytimg.com/vi/xpc-5imqk0s/maxresdefault.jpg">
+    <p>insert meaningful stuff here</p>
+  </body>
