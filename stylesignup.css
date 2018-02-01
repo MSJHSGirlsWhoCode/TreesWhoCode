@@ -3,7 +3,7 @@
 */
 p{ line-height: 1em; }
 h1, h2, h3, h4{
-    color: LightSeaGreen;
+    color: DarkOliveGreen;
 	font-weight: normal;
 	line-height: 1.1em;
 	margin: 0 0 .5em 0;
@@ -11,7 +11,7 @@ h1, h2, h3, h4{
 h1{ font-size: 1.7em; }
 h2{ font-size: 1.5em; }
 a{
-	color: LightSeaGreen;
+	color: DarkOliveGreen;
 	text-decoration: none;
 }
 	a:hover,
@@ -20,10 +20,11 @@ a{
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
 body{
-    font-family: courier; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+
+    font-family: courier; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background-image: url("https://iso.500px.com/wp-content/uploads/2016/08/stock-photo-150151767-1500x1000.jpg")  ; background-size: cover;
 }
 /* you can put your code all in one line like above */
-#page{ margin: 20px; }
+#page{ margin: 50px; }
 
 /* or on different lines like below */
 #logo{
@@ -56,10 +57,18 @@ body{
 			#nav ul li a:active{ background-color: #ff8f00; }
 
 .content{
-	margin: 30px 0;
+	margin: 30px ;
 	background: white;
 	padding: 20px;
 	clear: both;
+}
+.description-container {
+  display: flex;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #footer{
 	border-bottom: 1px #ccc solid;
@@ -73,5 +82,3 @@ body{
 	}
 
 /* multiple styles seperated by a , */
-#content,
-ul li a{ box-shadow: 0px 1px 1px #999; }
