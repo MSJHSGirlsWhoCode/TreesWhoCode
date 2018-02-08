@@ -9,7 +9,7 @@ water: "high"
 {
 name: "cactus"
 },
-//put between bracket 
+//put between bracket
 //variables only inside obj
 ];
 
