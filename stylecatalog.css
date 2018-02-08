@@ -89,3 +89,20 @@ body{
 		font-size: 80%;
 		color: grey;
 	}
+
+img {
+  height: 300px;
+  opacity: 0.75;
+}
+
+#container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
