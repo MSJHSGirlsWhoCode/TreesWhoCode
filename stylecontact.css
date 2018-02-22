@@ -1,48 +1,41 @@
-/*
-* multi-line comment
-*/
+
 p{ line-height: 1em; }
 h1, h2, h3, h4{
-    color: LightSeaGreen;
+    color: DarkOliveGreen;
 	font-weight: normal;
 	line-height: 1.1em;
 	margin: 0 0 .5em 0;
 }
-h1{ font-size: 1.7em; }
+h1{ font-size: 1.7em; margin: 20px;}
 h2{ font-size: 1.5em; }
 a{
-	color: LightSeaGreen;
+	color: DarkOliveGreen;
 	text-decoration: none;
 }
 	a:hover,
 	a:active{ text-decoration: underline; }
 
-/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
-
 body{
-    font-family: courier; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
-}
-/* you can put your code all in one line like above */
-#page{ margin: 20px; }
 
-/* or on different lines like below */
+    font-family: courier; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background-image: url("https://iso.500px.com/wp-content/uploads/2016/08/stock-photo-150151767-1500x1000.jpg")  ; background-size: cover;
+}
+#page{ margin: 50px; }
 #logo{
 	width: 35%;
 	margin-top: 5px;
 	font-family: courier;
 	display: inline-block;
 }
-/* but try and be as concise as possible */
 #nav{
 	width: 60%;
 	display: inline-block;
 	text-align: right;
 	float: right;
 }
-	#nav ul{}
+#nav ul{}
 		#nav ul li{
 			display: inline-block;
-			height: 62px;
+			height: 70px;
 		}
 			#nav ul li a{
 				padding: 20px;
@@ -55,11 +48,39 @@ body{
 			}
 			#nav ul li a:active{ background-color: #ff8f00; }
 
+
 .content{
-	margin: 30px 0;
+	margin: 10px ;
 	background: white;
 	padding: 20px;
 	clear: both;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#header {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.person {
+  margin: 50px;
+  background-color: lightgrey;
+  flex: 1;
+}
+img {
+  width: 32%;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+.description-container {
+  display: flex; }
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
 }
 #footer{
 	border-bottom: 1px #ccc solid;
@@ -71,7 +92,3 @@ body{
 		font-size: 80%;
 		color: grey;
 	}
-
-/* multiple styles seperated by a , */
-#content,
-ul li a{ box-shadow: 0px 1px 1px #999; }
