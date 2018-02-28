@@ -17,7 +17,7 @@ a{
 
 body{
 
-    font-family: courier; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background-image: url("https://iso.500px.com/wp-content/uploads/2016/08/stock-photo-150151767-1500x1000.jpg")  ; background-size: cover;
+    font-family: courier; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background-image: url("https://iso.500px.com/wp-content/uploads/2016/08/stock-photo-150151767-1500x1000.jpg")  ; background-size: contain;
 }
 #page{ margin: 50px; }
 #logo{
