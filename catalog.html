@@ -8,6 +8,7 @@
 	<meta name="author" content="name" />
 	<meta name="description" content="" />
 	<link rel="stylesheet" href="stylecatalog.css" type="text/css" />
+  <script type = "text/javascript" src="catalog.js"> </script>
 
 </head>
 <body>
@@ -32,20 +33,23 @@
 			</p>
 		</div>
 
-<div id="container">
+<!-- <div id="container">
       <img src="http://www.suneleusis.com/wp-content/uploads/2018/01/flower-3061523_960_720.jpg"/>
       <img src="https://maxpull-tlu7l6lqiu.stackpathdns.com/wp-content/uploads/2017/03/zone-7-fruit-tree.jpg"/>
       <img src="http://s3.thingpic.com/images/oB/aFmXbSzFDEk52CQz4NekVkj6.jpeg"/>
       <img src="https://maxpull-tlu7l6lqiu.stackpathdns.com/wp-content/uploads/2009/03/tomatoes-400x266.jpg"/>
-      <img src="https://i.pinimg.com/originals/73/df/59/73df5960ba0b462963c58091225b0332.png"/>
+      <img src="https://i.pinimg.com/originals/73/df/59/73df5960ba0b462963c58091225b0332.png"/> -->
 
-      <input id="light" type="text"></input>
-
-      <input id="radio" type="checkbox">high</input>
-      <input id="radio" type="checkbox">low</input>
-      <input id="radio" type="checkbox">high</input>
-      <input id="radio" type="checkbox">low</input>
-      <button id ="button" onclick="searchItems()">Submit</button>
+    <!--  <input id="light" type="text"> </input> -->
+     <div>light</div>
+      <input value="high" name="light" type="radio">high</input>
+      <input value="low"name="light" type="radio">low</input>
+    <br>
+    <div>water</div>
+      <input  value="high" name="water" type="radio">high</input>
+      <input value="low" name="water" type="radio">low</input>
+      <br>
+     <button id ="button" type="submit" onclick="searchItems()"> Submit</button>
 </div>
 
 		<div id="footer">
